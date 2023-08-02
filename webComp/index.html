@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="TodoItem.js" ></script>
+    <title>Document</title>
+    <style>
+       h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+
+
+    </select>
+    <h3>Normal tag </h3>
+    <todo-item>Todo 1</todo-item>
+    <slot name= "description">small text</slot>
+
+    <todo-item>Todo 2</todo-item>
+    <todo-item>Todo 3</todo-item>
+
+  
+</body>
+</html>
