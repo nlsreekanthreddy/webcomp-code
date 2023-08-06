@@ -37,8 +37,8 @@ class TodoItem extends HTMLElement{
   
         shadow.append(template.content.cloneNode(true))
  
-        this.title.innerText =  this.innerText
+        // this.title.innerText =  this.innerText
 }
 }
 
-customElements.define("todo-item", TodoItem )
+customElements.define("todo-item", TodoItem );

@@ -1,0 +1,18 @@
+{
+  "name": "simpleheader",
+  "version": "1.0.0",
+  "description": "headertag",
+  "main": "TodoItem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/nlsreekanthreddy/webcomp-code.git)"
+  },
+  "keywords": [
+    "header"
+  ],
+  "author": "ET",
+  "license": "ISC"
+}
